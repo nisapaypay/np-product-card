@@ -1,6 +1,6 @@
 {
   "name": "np-product-card",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Nisa Rahmawati"
   },
@@ -21,7 +21,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=b72dd03dcc44"
   },
   "repository": {
     "type": "git",
@@ -45,5 +46,10 @@
     "chromatic": "^6.7.2",
     "vite": "^3.0.0",
     "vue-loader": "^16.8.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nisapaypay/np-product-card/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "np-product-card@0.0.1"
 }
