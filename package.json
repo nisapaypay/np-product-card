@@ -1,0 +1,48 @@
+{
+  "name": "np-product-card",
+  "version": "0.0.1",
+  "author": {
+    "name": "Nisa Rahmawati"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "export": {
+    ".": "./dist/index.js",
+    "./styles.css": "./dist/style.css"
+  },
+  "browser": {
+    "./styles.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisapaypay/np-product-card.git"
+  },
+  "homepage": "https://github.com/nisapaypay/np-product-card#readme",
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-vite": "^0.2.2",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.9",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "babel-loader": "^8.2.5",
+    "vite": "^3.0.0",
+    "vue-loader": "^16.8.3"
+  }
+}
