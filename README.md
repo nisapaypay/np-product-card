@@ -47,5 +47,6 @@ Property Name | Type | Required | Value | Description
 `size` | String | No | `small` or NULL | Product card width is 132px.
 `type` | String | No | `disabled` or NULL | Button is Out of Stock.
 
+
 ## Storybook
 https://62e680d3f4f505d6dbca9e79-wtndhasyfj.chromatic.com/
